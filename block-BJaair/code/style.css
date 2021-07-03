@@ -134,6 +134,70 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 3rem 2rem;
-  max-width: 70rem;
+  padding: 2rem;
+  max-width: 50rem;
+}
+
+header {
+  background-color: black;
+  color: cornflowerblue;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  color: cornflowerblue;
+}
+
+ul {
+  background-color: #68df68;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 7px;
+}
+
+li {
+  background-color: black;
+  padding: 1.5rem;
+  flex: 0 1 42%;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  color: aliceblue;
+}
+
+.form {
+  background-color: #68df68;
+  padding: 2rem 4rem;
+  max-width: 30rem;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+input {
+  display: block;
+  width: 96.5%;
+  padding: 0.5rem;
+  margin-bottom: 1.4rem;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+
+button {
+  width: 100%;
+  color: cornflowerblue;
+  background-color: black;
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  border-radius: 7px;
 }
