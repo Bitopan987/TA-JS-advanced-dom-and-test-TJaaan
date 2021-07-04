@@ -154,6 +154,10 @@ p {
   color: cornflowerblue;
 }
 
+h2 {
+  padding-top: 0.5rem;
+}
+
 ul {
   background-color: #68df68;
   display: flex;
@@ -190,6 +194,10 @@ input {
   border: none;
   outline: none;
   border-radius: 7px;
+}
+
+ul input {
+  margin-bottom: 0;
 }
 
 button {
