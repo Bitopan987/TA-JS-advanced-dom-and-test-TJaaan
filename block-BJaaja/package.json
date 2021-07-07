@@ -1,14 +1,16 @@
 {
-  "name": "altcampus-assignment",
+  "name": "block-bjaaja",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "AltCampus",
-  "license": "GNU GPL V3",
-  "dependencies": {
-    "jest": "^26.0.1"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
   }
 }
