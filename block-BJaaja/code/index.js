@@ -1,19 +1,18 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-plusplus */
+/* eslint-disable no-const-assign */
 /* eslint-disable semi */
 /* eslint-disable no-unused-expressions */
-// 1
 
 const num = 10;
+const increaseNumber = () => num++;
+const increasePassedNumber = (number) => number++;
 
-function increaseNumber()  {num += 1};
-
-function increasePassedNumber(number) => {number += 1};
-
-var num1 = increaseNumber();
-var num2 = increasePassedNumber(num1);
+const num1 = increaseNumber();
+const num2 = increasePassedNumber(num1);
 
 console.log(num1);
 console.log(num2);
-
 // 2
 
 const animalMethods = {
@@ -91,20 +90,20 @@ Object.setPrototypeOf(dogsMethods, animalMethods);
   obj.name = name;
   obj.color = colorOfEyes;
   return obj;
-})
+});
 
 Object.setPrototypeOf(catsMethods, animalMethods);
 
 // 3
 
-const anakinSkywalker = 'Anakin Skywalker';
-const lukeSkywalker = 'Luke Skywalker';
+// const anakinSkywalker = 'Anakin Skywalker';
+// const lukeSkywalker = 'Luke Skywalker';
 
-const obj = {
-  lukeSkywalker,
-  anakinSkywalker,
-  episodeOne: 1,
-  twoJediWalkIntoACantina: 2,
-  episodeThree: 3,
-  mayTheFourth: 4,
-};
+// const obj = {
+//   lukeSkywalker,
+//   anakinSkywalker,
+//   episodeOne: 1,
+//   twoJediWalkIntoACantina: 2,
+//   episodeThree: 3,
+//   mayTheFourth: 4,
+// };
