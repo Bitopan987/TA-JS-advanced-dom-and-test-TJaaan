@@ -3,7 +3,7 @@
 /* eslint-disable no-const-assign */
 /* eslint-disable semi */
 /* eslint-disable no-unused-expressions */
-// 1
+
 const num = 10;
 const increaseNumber = () => num++;
 const increasePassedNumber = (number) => number++;
@@ -13,8 +13,6 @@ const num2 = increasePassedNumber(num1);
 
 console.log(num1);
 console.log(num2);
-
-// 2
 
 const animalMethods = {
   eat() {
@@ -94,8 +92,6 @@ Object.setPrototypeOf(dogsMethods, animalMethods);
 });
 
 Object.setPrototypeOf(catsMethods, animalMethods);
-
-// 3
 
 // const anakinSkywalker = 'Anakin Skywalker';
 // const lukeSkywalker = 'Luke Skywalker';
