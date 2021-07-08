@@ -1,7 +1,7 @@
 const {
   getFullName,
   checkPalindrome,
-  getCircumfrence,
+  getCircumference,
   getArea,
 } = require('./index');
 
@@ -36,3 +36,19 @@ test('concate tinkal + Deka not to equal Susmita Deka', () => {
 });
 
 // checkPalindrome
+
+test('madam to equal true', () => {
+  expect(checkPalindrome('madam')).toBe(true);
+});
+
+// getCircumferance
+
+test('circumference of radius 5 to equal 31', () => {
+  expect(getCircumference(5)).toBe(`The circumference is 31`);
+});
+
+// getArea
+
+test('Area of radius 5 to equal 78', () => {
+  expect(getArea(5)).toBe(`The area is 78`);
+});

@@ -6,21 +6,21 @@ function getFullName(firstName, lastName) {
 function checkPalindrome(str) {
   const len = str.length;
   for (let i = 0; i < len / 2; i++) {
-    return string[i] == string[len - 1 - i];
+    return str[i] == str[len - 1 - i];
   }
 }
 
-function getCircumfrence(radius) {
-  return `The circumference is ${2 * 3.14 * radius}`;
+function getCircumference(radius) {
+  return `The circumference is ${Math.floor(2 * 3.14 * radius)}`;
 }
 
 function getArea(radius) {
-  return `The area is ${2 * radius * Math.PI}`;
+  return `The area is ${Math.floor(radius * radius * 3.14)}`;
 }
 
 module.exports = {
   getFullName,
   checkPalindrome,
-  getCircumfrence,
+  getCircumference,
   getArea,
 };
