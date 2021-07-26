@@ -29,6 +29,16 @@ function factorial(num) {
   }
 }
 
+//  Function Remove
+
+function removeFromArray(arr, value) {
+  return arr.filter(function (ele) {
+    return ele != value;
+  });
+}
+
+removeFromArray([1, 2, 3, 4], 3); // should remove 3 and return [1,2,4]
+
 module.exports = {
   add,
   subtract,
